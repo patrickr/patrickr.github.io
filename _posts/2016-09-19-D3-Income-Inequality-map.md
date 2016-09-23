@@ -7,6 +7,9 @@ tags: javascript,D3,visualization,map,gini
 ---
 
 <style>
+svg {
+  margin-left:-120px;
+}
 .counties {
   fill: none;
   stroke: #c2c2c2;
