@@ -6,4 +6,4 @@ categories: blog
 tags: blog,site-update,github,github-pages
 ---
 
-Hey friends, I purchased a new domain name [patrickr.xyz](patrickr.xyz) and I've moved my blog and project pages here.
+Hey friends, I purchased a new domain name [patrickr.xyz](http://patrickr.xyz) and I've moved my blog and project pages here.
