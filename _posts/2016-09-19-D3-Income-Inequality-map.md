@@ -25,8 +25,8 @@ svg {
   stroke-linecap: round;
 }
 </style>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
 <script>
 
 var width = 960,
@@ -64,4 +64,4 @@ d3.json("/data/income_inequality_map/us.json", function(error, us) {
 
 ---
 
-## this post is a work in progress, please return later
+This map uses data from the [census bureau](http://www.census.gov/) American Communitiy Survey to show the [Gini index](https://en.wikipedia.org/wiki/Gini_coefficient) of all counties in the US. The data shown is from the 2014 ACS table [B19083 GINI INDEX OF INCOME INEQUALITY](http://factfinder.census.gov/bkmk/table/1.0/en/ACS/14_5YR/B19083/0100000US.04000)
