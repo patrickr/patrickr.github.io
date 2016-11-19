@@ -16,7 +16,7 @@
 title: Patrick Reames
 email: patrick.reames@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  My name is Patrick and I love making things. I work most with JS, Ruby, HTML, and CSS. This place serves as my personal project blog and a showcase of my work and skills. Thanks for visiting, please enjoy your stay!
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://patrickr.xyz" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
