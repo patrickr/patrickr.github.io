@@ -15,6 +15,7 @@ You can add a simple leaflet map to any Ionic 2 app easily in just a few steps.
 
 ## Install leaflet
 First we need to install leafletjs and its typing
+
 ```
 npm install leaflet --save
 typings install dt~leaflet --global --save
