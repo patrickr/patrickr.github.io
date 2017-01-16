@@ -13,8 +13,6 @@ The full code for this project can be found on [github](https://github.com/patri
 
 You can add a simple leaflet map to any Ionic 2 app easily in just a few steps.
 
-# THE TUTORIAL BELOW IS UNFINISHED SEE THE GITHUB REPO
-
 ## Install leaflet
 First we need to install leafletjs and its typing
 ```
@@ -22,8 +20,8 @@ npm install leaflet --save
 typings install dt~leaflet --global --save
 ```
 
-### Declarations
-Add leaflet to /src/declarations.d.ts
+## Declarations
+Add leaflet to `/src/declarations.d.ts`
 
 ```
 declare module '*'; //you should already have this
@@ -95,6 +93,30 @@ export class HomePage implements OnInit{
     }
 
     map.on('locationerror', onLocationError);
+  }
+}
+{% endhighlight %}
+
+## Page HTML & SCSS
+Add the map and remove padding from ion-content
+{% highlight html %}
+
+<ion-content [attr.noScroll]="shouldScroll">
+<div id="map"></div>
+</ion-content>
+{% endhighlight %}
+
+Edit your page SCSS to make sure the leaflet map fills the frame and doesn't scroll.
+
+{% highlight scss %}
+page-home {
+  [noScroll] {
+    overflow: hidden;
+  }
+
+  #map {
+    height: 100%;
+    width: 100%;
   }
 }
 {% endhighlight %}
